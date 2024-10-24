@@ -106,6 +106,17 @@ INSERT INTO Autores (nome, biografia, nacionalidade, data_nascimento) VALUES
 -- INSSERT INTO PARA DEPARTAMENTO 
 
 INSERT INTO Departamentos (nome, responsavel, descricao) VALUES
+('Literatura', 'Carlos Silva', 'Departamento de literatura clássica e moderna.');
+
+INSERT INTO funcionarios (nome, cargo, telefone, endereco, idDepartamento) VALUES 
+('Carlos Pereira', 'Autor', '819830122435', 'Rua Domingues Alves', 15),
+('Augustinho', 'Atendente', '819830122435', 'Rua Domingues Alves', 2),
+('Gustavo Alves', 'Ilustrador', '819830122435', 'Rua Domingues Alves', 1),
+('Sant Fettucine', 'Diagramador', '819830122435', 'Rua Domingues Alves', 3),
+('Fabio Brazza', 'Revisor', '819830122435', 'Rua Domingues Alves', 7);
+
+
+INSERT INTO Departamentos (nome, responsavel, descricao) VALUES
 ('Literatura', 'Carlos Silva', 'Departamento de literatura clássica e moderna.'),
 ('Ficção Científica', 'Maria Oliveira', 'Focado em obras de ficção científica.'),
 ('História', 'José Santos', 'Estudos e livros sobre história.'),
@@ -221,4 +232,3 @@ INSERT INTO Obras (titulo, data_publicacao, autor) VALUES
 ('A Pata da Gazela', '1872-01-01', 'Mário de Andrade'),
 ('Memórias de um Sargento de Milícias', '1852-01-01', 'Manuel Antônio de Almeida'),
 ('O Cortiço', '1890-01-01', 'Aluísio Azevedo');
-
